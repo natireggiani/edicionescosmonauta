@@ -157,10 +157,10 @@ header {
   color: #112A46; }
 
 /* SECCION NOSOTROS */
-.columna__color {
-  background: linear-gradient(#ffffff, #bab3d5); }
-
 .columna__texto {
+  background-image: url("../imagenes/logotransparente.png");
+  background-repeat: no-repeat;
+  background-position-X: left center;
   color: #112A46; }
 
 .autores__descripcion--negrita {
@@ -258,11 +258,11 @@ i {
 
 .coleccion .coleccion__card2 {
   width: 18.75em;
-  height: 31.25em; }
+  height: 28em; }
 
 .coleccion .coleccion__card3 {
   width: 18.75em;
-  height: 20.83333em; }
+  height: 18.66667em; }
 
 .coleccion .coleccion__card2 img {
   width: 18.75em;
@@ -318,18 +318,19 @@ i {
   display: flex;
   justify-content: center; }
 
-.columna__color {
+.columna__logo {
   margin-top: 0.31em;
-  width: 15em;
-  height: 20em;
+  width: 50em;
+  height: 37.5em;
   border-radius: 10px;
   margin-bottom: 0.31em; }
 
 .columna__texto {
   margin-top: 0.31em;
-  width: 30em;
+  width: auto;
   margin-bottom: 0.63em;
-  padding-left: 1.25em;
+  padding-left: 6em;
+  padding-right: 6em;
   padding-top: 4.37em; }
 
 .columna__texto--linea {
@@ -448,7 +449,7 @@ i {
     width: 2.25em; }
   .barra__boton--estilo {
     font-size: 0.5em; }
-  .columna__color {
+  .columna__logo {
     height: auto; }
   .columna__texto {
     font-size: 1em;
@@ -516,7 +517,7 @@ i {
   .coleccion {
     display: flex;
     flex-wrap: wrap; }
-  .columna__color {
+  .columna__logo {
     height: auto; }
   .libro__imagen {
     max-width: 100%;

@@ -4,7 +4,7 @@
 @import 'colores';
 
 $cardWidth:18.75em;
-$cardHeight: 31.25em;
+$cardHeight: 28em;
 $logoWidth:4.5em;
 $fontSize:1em;
 
@@ -223,10 +223,10 @@ $fontSize:1em;
    justify-content: center;
 }
 
-.columna__color{
+.columna__logo{
     margin-top: 0.31em;
-    width: 15em;
-    height: 20em;
+    width: 50em;
+    height: 37.5em;
     border-radius: 10px;
     margin-bottom: 0.31em;
    
@@ -234,9 +234,10 @@ $fontSize:1em;
 
 .columna__texto {
     margin-top: 0.31em;
-    width: 30em;
+    width: auto;
     margin-bottom: 0.63em;
-    padding-left:1.25em;
+    padding-left:6em;
+    padding-right: 6em;
     padding-top:4.37em ;
 }
 
@@ -412,7 +413,7 @@ $fontSize:1em;
         font-size: $fontSize/2;
     }
 
-    .columna__color{
+    .columna__logo{
         height: auto;
     }
     .columna__texto{
@@ -522,7 +523,7 @@ $fontSize:1em;
         display: flex;
         flex-wrap: wrap;            
     }
-    .columna__color{
+    .columna__logo{
         height: auto;
     }
 

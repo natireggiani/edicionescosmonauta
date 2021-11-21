@@ -79,15 +79,11 @@ header{
 
 /* SECCION NOSOTROS */
 
-.columna__color{
-    // background-image: url('../imagenes/logogrande.png');
-    // background-repeat: no-repeat;
-    // background-position-X: left center;
-    background: linear-gradient(#ffffff, rgb(186,179,213))
-}
-
 
 .columna__texto {
+    background-image: url('../imagenes/logotransparente.png');
+    background-repeat: no-repeat;
+    background-position-X: left center;
     color:$colorFuente
 }
 
