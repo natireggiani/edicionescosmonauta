@@ -9,6 +9,10 @@ body {
 header {
   width: 100%; }
 
+a {
+  text-decoration: none;
+  color: #112A46; }
+
 body {
   font-family: 'Roboto Mono', monospace; }
 
@@ -169,6 +173,10 @@ header {
 .lista2 {
   color: #112A46;
   list-style-image: url("../imagenes/logochico.jpg"); }
+
+.autores__descripcion a:hover {
+  background-color: #bab3d5;
+  border-radius: 4px; }
 
 .libro__boton {
   text-decoration: none;
@@ -365,6 +373,9 @@ i {
 .autores__descripcion--imgright {
   float: right;
   border: 1px solid #ffffff; }
+
+.autores__descripcion a {
+  border: 1px solid #112A46; }
 
 /*SECCION VENTAS*/
 .lista2 {
