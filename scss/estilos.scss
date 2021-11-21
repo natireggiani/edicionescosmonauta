@@ -1,0 +1,533 @@
+
+@import 'estructura';
+@import 'tipografia';
+@import 'colores';
+
+$cardWidth:18.75em;
+$cardHeight: 31.25em;
+$logoWidth:4.5em;
+$fontSize:1em;
+
+/*ENCABEZADOS*/
+
+.encabezado2{
+    text-align: center;
+    padding-top: 50px;
+    height: 200px;
+}
+
+.encabezado__secundario{
+    text-align: center;
+    padding-top: 50px;
+    height: 190px;
+}
+
+
+.encabezado__secundario-ventas{
+    text-align: center;
+    padding-top: 35px;
+    height: 190px;
+}
+
+.encabezado__libros{
+   height: 20px;
+   text-align: left;  
+} 
+
+
+/* INDEX */
+
+
+.imagen__rur{
+    width: 20em;
+    height: 30em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    margin-right: 5px;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+
+}
+
+.texto__rur{
+    margin-top:5em;
+    margin-bottom: 2em;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.5em;
+    color: #112A46;
+    
+}
+
+
+.fondo{
+    background-color:rgb(241, 237, 252);
+    margin-bottom: 3em;
+}
+
+
+/*BARRA DE NAVEGACION*/
+
+.barra__logo{
+    width: $logoWidth;
+    padding-top: 1em;
+}
+
+
+.barra__boton{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    margin-right: 1em;
+    margin-bottom: 1em;    
+}
+
+
+
+/*TARJETAS CATALOGO*/
+
+.coleccion{
+    display: flex;
+    justify-content:space-evenly;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;    
+}
+
+
+.coleccion {
+        .coleccion__card1 { 
+            width: 12.5em;
+            height: 25em;
+            img{
+                width: 12.5em;
+                height: 18em;
+                border-radius: 5px;
+            }
+        }
+    }   
+
+
+.coleccion {
+    .coleccion__card2{
+        width: $cardWidth;
+        height: $cardHeight;
+    }
+}
+
+.coleccion {
+    .coleccion__card3{
+        width: $cardWidth;
+        height: ($cardHeight/3)*2;
+    }
+}
+
+.coleccion {
+    .coleccion__card2{
+        img{
+            width: $cardWidth;
+            height: 18.75em;
+            border-radius: 5px;
+        }
+    }
+}
+
+.coleccion {
+    .coleccion__card2{
+                    h4{
+                        margin-top:1em;
+                 } 
+            }
+        }
+
+
+.coleccion {
+    .coleccion__card3 {
+                    img{
+                        width: 18.75em;
+                        height: 12.5em;
+                        border-radius: 5px;
+                 }
+            }
+        }
+
+.coleccion {
+    .coleccion__card3 {
+                    h4{
+                        margin-top:1em;
+                    }
+                } 
+        }
+
+.coleccion {
+    .coleccion__card3 {
+                        p{  
+                            margin-top: 0.25em;
+                        }
+                }
+            }       
+
+
+.coleccion:hover{
+    .coleccion__card1{
+        transform: scale(.98);
+        box-shadow: none;
+    }
+}
+
+.coleccion:hover{
+    .coleccion__card1:hover{
+        transform: scale(1);
+        filter: blur(0px);
+        opacity: 1;
+        box-shadow: 0px 8px 30px 0px rgba(0,0,0,0.125);
+    } 
+}
+
+
+.coleccion:hover{
+    .coleccion__card2{
+        transform: scale(.98);
+        box-shadow: none;
+    }
+}
+
+.coleccion:hover{
+    .coleccion__card2:hover{
+        transform: scale(1);
+        filter: blur(0px);
+        opacity: 1;
+        box-shadow: 0px 8px 30px 0px rgba(0,0,0,0.125);
+    } 
+}
+
+.coleccion:hover{
+    .coleccion__card3:hover{
+        transform: scale(1);
+        filter: blur(0px);
+        opacity: 1;
+        box-shadow: 0px 8px 30px 0px rgba(0,0,0,0.125);
+    } 
+}
+
+
+/*TITULOS*/
+.titulos{
+    margin-top: 1.25em;
+}
+
+
+/* SECCION NOSOTROS */
+
+.columna{
+    display: flex;
+   justify-content: center;
+}
+
+.columna__color{
+    margin-top: 0.31em;
+    width: 15em;
+    height: 20em;
+    border-radius: 10px;
+    margin-bottom: 0.31em;
+   
+}
+
+.columna__texto {
+    margin-top: 0.31em;
+    width: 30em;
+    margin-bottom: 0.63em;
+    padding-left:1.25em;
+    padding-top:4.37em ;
+}
+
+.columna__texto--linea{
+    margin-top: 2em;
+    width: 10em;
+    border-bottom: 1px solid black;
+}
+.columna__texto--logo{
+    margin-top: 2em;
+}
+
+/*SECCION AUTORES*/
+
+.autores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+ }
+
+ .autores__descripcion{
+     width: 50em;
+     margin-top: 3em;
+ }    
+ 
+.autores__descripcion {
+            img{
+                width: 13em;
+                height: 15em;
+                border-radius: 20px;
+            }
+    }
+
+.autores__descripcion--imgleft{
+    float:left;
+    border: 10px solid #ffffff;
+}
+
+.autores__descripcion--imgright{
+    float: right;
+    border: 1px solid #ffffff;
+}
+
+
+
+
+/*SECCION VENTAS*/
+
+.lista2{   
+    margin-top: 1em;
+ }
+
+ .centrado{
+    justify-content: space-around;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin-top: 7em;
+    margin-bottom: 6em;   
+ }
+
+
+
+ /*SECCION LIBROS*/
+
+
+.libros{
+    display: grid;
+    grid-template-columns: 50% 30%;
+    justify-items: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 600px;
+}
+
+ .libro__tapa{
+     margin-bottom: 2em; 
+}
+
+.libro__boton{
+    font-size: 0.7em;
+    font-weight: 900;
+}
+
+
+.encabezado__libros--titulo{
+    margin-top: 1.25em;
+    margin-left: 1.25em;
+    margin-bottom: 0.19em;
+}
+
+
+.libro__imagen{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.libro__imagen2{
+    max-width: 100%;
+    height: auto;
+}
+
+.animate__animated.animate__backInLeft{
+    --animate-duration: 3s;
+}
+
+/*FOOTER*/
+
+.footer{
+    display: flex;
+    width: 100%;
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+    justify-content: space-around;
+}
+
+.footer {
+                p{
+                    margin-left: 3em;
+                }
+            }
+
+.footer__redes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 10em;
+}
+
+
+
+
+/*DISEÃ‘O RESPONSIVE*/
+
+/*MOVILES VERTICAL*/
+
+@media only screen and (max-width: 768px){
+    
+    .encabezado2{
+        font-size: $fontSize;
+    }
+
+    .encabezado__secundario-ventas{
+        font-size: $fontSize;
+    }
+    
+    .coleccion{
+        display: flex;
+        flex-wrap: wrap;      
+        justify-self: center; 
+    
+    }
+
+    .titulos{
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+    .titulos__secundario{
+        font-size: $fontSize;
+    }
+
+    .titulo-rur{
+        font-size: 1.5em;
+    }
+    .barra__logo{
+        width: $logoWidth/2;
+    }
+
+    .barra__boton--estilo{
+        font-size: $fontSize/2;
+    }
+
+    .columna__color{
+        height: auto;
+    }
+    .columna__texto{
+        font-size: $fontSize;
+        margin-right: 0.37em;
+    }
+    .columna__texto--linea{
+        width: 7em;
+        margin-right: 0.37em;
+    }
+
+    .centrado{
+         display:flex;
+         justify-content: space-evenly;
+         align-items: center;
+         flex-direction:column;
+         flex-wrap: nowrap;
+    }
+
+    .centrado__ventas{
+        margin-top: 1em;
+    }
+    .autores__descripcion{
+        width: 15em;
+    }
+
+    .autores__descripcion--autor{
+    font-size: $fontSize/2;
+    font-weight: 900;
+    }
+    .autores__descripcion--negrita{
+        font-size: $fontSize;
+    }
+
+    .autores__descripcion {
+        img{
+        width: 7em;
+        height: 7.5em;
+        border-radius: 20px;
+    }
+}
+
+    .libros{
+        display: grid;
+        grid-template-rows: max-content;
+        justify-content: space-around;
+        height: 400px; 
+    }
+
+    .encabezado__libros--titulo{
+        font-size: $fontSize;
+    }
+    .libro__descripcion{
+        font-size: $fontSize/2;
+    }
+
+    .libro__boton{
+        font-size: $fontSize/2;
+        text-decoration: none;
+        color:rgb(70, 66, 66);
+        margin-top: 10px;
+    }
+
+    .libro__imagen{
+        max-width: 100%;
+        height: 250px;
+    }
+
+    .libro__imagen2{
+        width: 150px;
+        height: 150px;
+    }
+
+    .libro__imagen3{
+        width: 150px;
+        height: 100px;
+    }
+
+    .footer{
+        font-size: $fontSize/2;
+    }
+    .texto__rur{
+        font-size: 0.7em;
+        margin-top: 1em;
+    }
+    .imagen__rur{
+        width: 15em;
+        height: 20em;
+    }
+    
+
+}
+  
+
+ 
+
+/*MOVILES HORIZONTAL Y TABLETS */
+
+ @media (min-width: 769px) { 
+    .encabezado{   
+        width: 100%;
+        font-size: 1.5em;
+        padding-top: 300px;
+    }
+    
+    .coleccion{
+        display: flex;
+        flex-wrap: wrap;            
+    }
+    .columna__color{
+        height: auto;
+    }
+
+    .libro__imagen{
+        max-width: 100%;
+        height: auto;
+    }
+} 

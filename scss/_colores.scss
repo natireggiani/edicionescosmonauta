@@ -1,0 +1,128 @@
+$colorPrincipal:rgb(186,179,213);
+$bordeEncabezado:1px solid red;
+$colorFuente:#112A46;
+
+header{
+    background-color: #ffffff;
+}
+
+/*ENCABEZADOS*/
+
+.encabezado2{
+    background-color: $colorPrincipal;
+    color: $colorFuente;
+    border-bottom: $bordeEncabezado;
+}
+
+
+.encabezado__secundario{
+    background-color: $colorPrincipal;
+    color: $colorFuente;
+    border-bottom: $bordeEncabezado;
+}
+
+
+.encabezado__secundario-ventas{
+    background-color: $colorPrincipal;
+    color: $colorFuente;
+    border-bottom: $bordeEncabezado;
+}
+
+
+.encabezado__libros{
+    background-color: $colorPrincipal;
+    border-bottom: $bordeEncabezado;
+}
+
+/*BARRA DE NAVEGACION*/
+
+.barra {
+    li {
+        a:hover{
+           background-color: $colorPrincipal;
+           border-radius: 4px;
+       } 
+   }  
+}   
+
+.barra__boton--estilo{
+    color: $colorFuente;
+    text-decoration: none;
+}
+.barra__boton--estilo:hover{
+    background-color: $colorPrincipal;
+    color:$colorFuente;
+}
+
+// INDEX
+
+.card-footer{
+    a{
+        text-decoration: none;
+        color: $colorFuente;
+    }
+}
+
+/*TITULOS*/
+
+.titulos{
+    color:$colorFuente;
+}
+
+.titulo__card{
+    color:$colorFuente;
+}
+
+.titulo-rur{
+    color:$colorFuente;
+}
+
+/* SECCION NOSOTROS */
+
+.columna__color{
+    // background-image: url('../imagenes/logogrande.png');
+    // background-repeat: no-repeat;
+    // background-position-X: left center;
+    background: linear-gradient(#ffffff, rgb(186,179,213))
+}
+
+
+.columna__texto {
+    color:$colorFuente
+}
+
+.autores__descripcion--negrita{
+    color:$colorFuente
+}
+
+
+.lista2{   
+    color: $colorFuente;
+    list-style-image: url('../imagenes/logochico.jpg');
+    
+ }
+
+// SECCION LIBROS
+
+.libro__boton{
+    text-decoration: none;
+    color:$colorFuente;
+}
+
+.libro__boton:hover{
+    background-color:$colorPrincipal;
+    color:$colorFuente;
+}
+
+/*FOOTER*/
+
+.footer{
+    color: $colorFuente;
+    background-color:$colorPrincipal;
+    border-top: $bordeEncabezado;
+}
+
+
+i{
+    color:$colorFuente;
+}
