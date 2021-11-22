@@ -383,6 +383,13 @@ $fontSize:1em;
 /*DISEÃ‘O RESPONSIVE*/
 
 /*MOVILES VERTICAL*/
+@media only screen and (max-width: 540px){
+    .ocultar{
+        display: none;
+    }
+
+}
+
 
 @media only screen and (max-width: 768px){
     
@@ -504,7 +511,7 @@ $fontSize:1em;
     }
     .texto__rur{
         font-size: 0.7em;
-        margin-top: 1em;
+        margin-top: 10em;
     }
     .imagen__rur{
         width: 15em;
@@ -513,10 +520,7 @@ $fontSize:1em;
     .titulo__card{
         font-size: $fontSize;
     }
-    .ocultar{
-        display: none;
-    }
-
+    
 }
   
 
