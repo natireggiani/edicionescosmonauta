@@ -100,13 +100,16 @@ body {
 
 /*SECCION LIBROS*/
 .libro__descripcion {
+  height: auto;
   font-size: 1.1em;
   font-weight: 900; }
 
 .libro__descripcion--datos {
-  font-size: 0.7em; }
+  font-size: 0.7em;
+  line-height: 0.2em; }
 
 .footer {
+  margin-top: 50px;
   font-size: 0.8em;
   font-weight: 900; }
 
@@ -455,7 +458,7 @@ i {
   .titulos__secundario {
     font-size: 1em; }
   .titulo-rur {
-    font-size: 1.5em; }
+    font-size: 1.4em; }
   .barra__logo {
     width: 2.25em; }
   .barra__boton--estilo {
@@ -519,10 +522,12 @@ i {
     width: 15em;
     height: 20em; }
   .titulo__card {
-    font-size: 1em; } }
+    font-size: 1em; }
+  .ocultar {
+    display: none; } }
 
 /*MOVILES HORIZONTAL Y TABLETS */
-@media (min-width: 769px) {
+@media (min-width: 769px) and (max-width: 1100px) {
   .encabezado {
     width: 100%;
     font-size: 1.5em;
@@ -534,4 +539,12 @@ i {
     height: auto; }
   .libro__imagen {
     max-width: 100%;
-    height: auto; } }
+    height: auto; }
+  .libro__descripcion {
+    font-size: 0.5em; }
+  .texto__rur {
+    font-size: 1em;
+    margin-top: 7em; }
+  .imagen__rur {
+    width: 10em;
+    height: 15em; } }

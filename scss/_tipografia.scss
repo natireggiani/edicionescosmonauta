@@ -145,6 +145,7 @@ body{
 /*SECCION LIBROS*/
 
 .libro__descripcion{
+    height: auto;
     font-size: 1.1em; 
     font-weight: 900;
 }
@@ -152,11 +153,14 @@ body{
 
 .libro__descripcion--datos{
     font-size: 0.7em;
+    line-height: 0.2em;
 }
+
 
 // FOOTER
 
 .footer{
+    margin-top: 50px;
     font-size: 0.8em;
     font-weight: 900;
 }
