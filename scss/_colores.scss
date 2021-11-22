@@ -6,6 +6,7 @@ header{
     background-color: #ffffff;
 }
 
+
 /*ENCABEZADOS*/
 
 .encabezado2{
@@ -107,6 +108,22 @@ header{
            border-radius: 4px;
        }    
 }   
+
+// SECCION VENTAS
+
+.lista2{
+    a:hover{
+            color: $colorFuente;
+            border-bottom:1px solid $colorPrincipal;
+    }
+}
+.lista2{
+    a:hover{
+            color: $colorFuente;
+            border-bottom:1px solid $colorPrincipal;
+    }
+}
+
 
 // SECCION LIBROS
 

@@ -181,6 +181,14 @@ header {
   background-color: #bab3d5;
   border-radius: 4px; }
 
+.lista2 a:hover {
+  color: #112A46;
+  border-bottom: 1px solid #bab3d5; }
+
+.lista2 a:hover {
+  color: #112A46;
+  border-bottom: 1px solid #bab3d5; }
+
 .libro__boton {
   text-decoration: none;
   color: #112A46; }
@@ -327,7 +335,8 @@ i {
 /* SECCION NOSOTROS */
 .columna {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 5em; }
 
 .columna__logo {
   margin-top: 0.31em;
