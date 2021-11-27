@@ -372,6 +372,15 @@ $fontSize:1em;
     width: 10em;
 }
 
+.card{
+    width: 10em;
+    margin: auto;
+}
+
+.card-footer{
+    height: 4em;
+}
+
 
 
 
@@ -381,6 +390,10 @@ $fontSize:1em;
 @media only screen and (max-width: 540px){
     .ocultar{
         display: none;
+    }
+    .card{
+        width: 15em;
+        margin: auto;
     }
     
 }
@@ -515,6 +528,7 @@ $fontSize:1em;
     .titulo__card{
         font-size: $fontSize;
     }
+    
     
 }
   

@@ -114,7 +114,7 @@ body {
   font-weight: 900; }
 
 .card__footer-text {
-  font-size: 0.8em; }
+  font-size: 0.7em; }
 
 header {
   background-color: #ffffff; }
@@ -449,11 +449,21 @@ i {
   justify-content: space-around;
   width: 10em; }
 
+.card {
+  width: 10em;
+  margin: auto; }
+
+.card-footer {
+  height: 4em; }
+
 /*DISEÃ‘O RESPONSIVE*/
 /*MOVILES VERTICAL*/
 @media only screen and (max-width: 540px) {
   .ocultar {
-    display: none; } }
+    display: none; }
+  .card {
+    width: 15em;
+    margin: auto; } }
 
 @media only screen and (max-width: 768px) {
   .encabezado2 {
