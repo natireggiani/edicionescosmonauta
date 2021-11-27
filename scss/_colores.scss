@@ -64,6 +64,11 @@ header{
     }
 }
 
+.fondo{
+    background-color:rgb(250, 247, 253);
+   
+}
+
 /*TITULOS*/
 
 .titulos{
@@ -76,7 +81,9 @@ header{
 
 .titulo-rur{
     color:$colorFuente;
+    border-bottom: 1px solid $colorPrincipal;
 }
+
 
 /* SECCION NOSOTROS */
 
