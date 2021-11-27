@@ -273,7 +273,7 @@ i {
 
 .coleccion .coleccion__card1 {
   width: 12.5em;
-  height: 25em; }
+  height: 23em; }
   .coleccion .coleccion__card1 img {
     width: 12.5em;
     height: 18em;
@@ -281,7 +281,7 @@ i {
 
 .coleccion .coleccion__card2 {
   width: 18.75em;
-  height: 28em; }
+  height: 26em; }
 
 .coleccion .coleccion__card3 {
   width: 18.75em;
@@ -331,6 +331,9 @@ i {
   filter: blur(0px);
   opacity: 1;
   box-shadow: 0px 8px 30px 0px rgba(0, 0, 0, 0.125); }
+
+#tres {
+  margin-top: 3em; }
 
 /*TITULOS*/
 .titulos {
@@ -534,7 +537,7 @@ i {
     font-size: 0.5em; }
   .texto__rur {
     font-size: 0.8em;
-    margin-top: 2em; }
+    margin-top: 6em; }
   .imagen__rur {
     width: 15em;
     height: 20em; }
@@ -559,7 +562,9 @@ i {
     font-size: 0.5em; }
   .texto__rur {
     font-size: 1em;
-    margin-top: 7em; }
+    margin-top: 5em; }
   .imagen__rur {
     width: 10em;
-    height: 15em; } }
+    height: 15em; }
+  .card__footer-text {
+    font-size: 0.5em; } }
