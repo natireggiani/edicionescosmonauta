@@ -342,20 +342,12 @@ i {
 /* SECCION NOSOTROS */
 .columna {
   display: flex;
-  justify-content: center;
-  margin-top: 5em; }
+  justify-content: center; }
 
 .columna__logo {
-  margin-top: 0.31em;
-  width: 50em;
-  height: 37.5em;
-  border-radius: 10px;
-  margin-bottom: 0.31em; }
+  width: 50em; }
 
 .columna__texto {
-  margin-top: 0.31em;
-  width: auto;
-  margin-bottom: 0.63em;
   padding-left: 6em;
   padding-right: 6em;
   padding-top: 4.37em; }
