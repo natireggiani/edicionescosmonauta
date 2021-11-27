@@ -454,7 +454,10 @@ i {
   margin: auto; }
 
 .card-footer {
-  height: 4em; }
+  height: 5em; }
+
+.card__footer-text {
+  padding: 1em; }
 
 /*DISEÃ‘O RESPONSIVE*/
 /*MOVILES VERTICAL*/
