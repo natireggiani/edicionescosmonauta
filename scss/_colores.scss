@@ -1,6 +1,7 @@
 $colorPrincipal:rgb(186,179,213);
 $bordeEncabezado:1px solid red;
 $colorFuente:#112A46;
+$colorFondo:rgb(250, 247, 253);
 
 header{
     background-color: #ffffff;
@@ -71,7 +72,7 @@ header{
 }
 
 .fondo{
-    background-color:rgb(250, 247, 253);
+    background-color:$colorFondo;
    
 }
 
