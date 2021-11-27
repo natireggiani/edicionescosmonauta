@@ -114,7 +114,7 @@ body {
   font-weight: 900; }
 
 .card__footer-text {
-  font-size: 0.7em; }
+  font-size: 1em; }
 
 header {
   background-color: #ffffff; }
@@ -452,10 +452,6 @@ i {
   align-items: center;
   justify-content: space-around;
   width: 10em; }
-
-.card {
-  width: 10em;
-  margin: auto; }
 
 .card-footer {
   height: 5em; }
