@@ -519,7 +519,7 @@ i {
     display: grid;
     grid-template-rows: max-content;
     justify-content: space-around;
-    height: 400px; }
+    height: 440px; }
   .encabezado__libros--titulo {
     font-size: 1em; }
   .libro__descripcion {

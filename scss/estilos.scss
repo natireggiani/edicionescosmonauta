@@ -397,11 +397,12 @@ $fontSize:1em;
         margin: auto;
     }
     
+    
 }
 
 
 @media only screen and (max-width: 768px){
-    
+   
     .encabezado2{
         font-size: $fontSize;
     }
@@ -483,12 +484,13 @@ $fontSize:1em;
         display: grid;
         grid-template-rows: max-content;
         justify-content: space-around;
-        height: 400px; 
+        height: 440px; 
     }
 
     .encabezado__libros--titulo{
         font-size: $fontSize;
     }
+    
     .libro__descripcion{
         font-size: $fontSize/2;
     }
@@ -575,4 +577,6 @@ $fontSize:1em;
     .card__footer-text{
     font-size: 0.5em;
     }
+
+   
 } 
