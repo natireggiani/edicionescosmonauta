@@ -214,6 +214,12 @@ header {
   background-color: #bab3d5;
   border-top: 1px solid red; }
 
+.footer a {
+  color: #112A46; }
+
+.footer a:hover {
+  text-decoration: underline; }
+
 i {
   color: #112A46; }
 

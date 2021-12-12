@@ -159,6 +159,18 @@ header{
     border-top: $bordeEncabezado;
 }
 
+.footer{
+    a{
+        color: $colorFuente;
+    }
+}
+
+
+.footer{
+    a:hover{
+        text-decoration: underline;
+    }
+}
 
 i{
     color:$colorFuente;
