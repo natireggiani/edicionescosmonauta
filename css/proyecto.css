@@ -200,6 +200,10 @@ header {
   color: #112A46;
   border-bottom: 1px solid #bab3d5; }
 
+.dist:hover {
+  color: #112A46;
+  text-decoration: underline; }
+
 .libro__boton {
   text-decoration: none;
   color: #112A46; }
