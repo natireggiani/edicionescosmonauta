@@ -560,6 +560,9 @@ i {
   .libro__imagen3 {
     width: 150px;
     height: 100px; }
+  .libro__imagen-criaturas {
+    max-width: 100%;
+    height: 250px; }
   .footer {
     font-size: 0.5em; }
   .texto__rur {
