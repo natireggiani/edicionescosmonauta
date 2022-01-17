@@ -87,7 +87,7 @@
                   <p>Olaf Stapledon</p>
               </div>    
               <div class='coleccion__card1'>
-                <a href='libro8.html'><img src='imagenes/Asteroide.png'></a>
+                <a href='libro8.html' class="alerta"><img src='imagenes/Asteroide.png'id='alerta'></a>
                 <h4>Asteroide de Carne</h4>
                 <p>Gini Regan</p>
             </div>    
@@ -153,5 +153,11 @@
       $("img[alt|='www.000webhost.com']").css("display", "none");
       });
     </script>
+      <script>
+
+        const al = document.getElementById('alerta');
+        al.addEventListener('click', function(){
+           alert(`ATENCION!!,\nContenido no apto para menores de 18 años`)        
+        })</script>
 </body>
 </html>
