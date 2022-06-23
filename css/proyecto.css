@@ -396,7 +396,7 @@ i {
 
 .autores__descripcion img {
   width: 13em;
-  height: 15em;
+  height: 18em;
   border-radius: 20px; }
 
 .autores__descripcion--imgleft {
@@ -535,7 +535,7 @@ i {
     font-size: 1em; }
   .autores__descripcion img {
     width: 7em;
-    height: 7.5em;
+    height: 9em;
     border-radius: 20px; }
   .libros {
     display: grid;
