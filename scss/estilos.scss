@@ -37,14 +37,17 @@ $fontSize:1em;
 
 /* INDEX */
 
-
+.flex-novedades{
+    display: flex;
+    align-items: center;
+}
 .imagen__rur{
     width: 20em;
     height: 30em;
     margin-top: 5em;
     margin-bottom: 5em;
     margin-right: 3px;
-    box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.1);
 
 }
 
@@ -55,8 +58,7 @@ $fontSize:1em;
     margin-top: 5em;
     margin-bottom: 5em;
     margin-right: 3px;
-    box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.3);
-   
+    box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.1);
 }
 
 .texto__rur{
