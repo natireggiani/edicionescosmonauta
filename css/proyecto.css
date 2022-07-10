@@ -258,15 +258,15 @@ i {
   margin-top: 5em;
   margin-bottom: 5em;
   margin-right: 3px;
-  box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.1); }
+  box-shadow: 10px 10px 26px -7px rgba(0, 0, 0, 0.75); }
 
 .imagen__rur2 {
-  width: 20em;
-  height: 20em;
+  width: 25em;
+  height: 25em;
   margin-top: 5em;
   margin-bottom: 5em;
   margin-right: 3px;
-  box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.1); }
+  box-shadow: 10px 10px 26px -7px rgba(0, 0, 0, 0.75); }
 
 .texto__rur {
   margin-top: 10em;
@@ -575,6 +575,9 @@ i {
   .imagen__rur {
     width: 15em;
     height: 20em; }
+  .imagen__rur2 {
+    width: 15em;
+    height: 15em; }
   .titulo__card {
     font-size: 1em; } }
 
@@ -598,7 +601,10 @@ i {
     font-size: 1em;
     margin-top: 5em; }
   .imagen__rur {
-    width: 10em;
+    width: 15em;
+    height: 20em; }
+  .imagen__rur2 {
+    width: 15em;
     height: 15em; }
   .card__footer-text {
     font-size: 0.5em; } }
