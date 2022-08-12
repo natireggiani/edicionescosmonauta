@@ -92,6 +92,16 @@ $fontSize:1em;
     margin-bottom: 1em;    
 }
 
+.icons-navbar{
+    margin-right: 1em;
+}
+
+.icons-navbar{
+    i{
+        color:#bab3d4;
+    }
+}
+
 
 
 /*TARJETAS CATALOGO*/
@@ -423,6 +433,10 @@ $fontSize:1em;
 
 @media only screen and (max-width: 768px){
    
+    .ocultar{
+        display: none;
+    }
+
     .encabezado2{
         font-size: $fontSize;
     }
@@ -569,6 +583,10 @@ $fontSize:1em;
 /*MOVILES HORIZONTAL Y TABLETS */
 
  @media (min-width: 769px) and (max-width: 1100px) { 
+
+    .ocultar{
+        display: none;
+    }
     .encabezado{   
         width: 100%;
         font-size: 1.5em;
