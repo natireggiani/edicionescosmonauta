@@ -7,7 +7,8 @@
     <meta name="description" content="Fantaciencia moderna con cohetes y extraterrestres">
     <meta name="keywords" content="Editorial, cosmonauta, libros, historietas, teatro, ciencia ficcion">
     <title>Libros del Cosmonauta</title>
-  
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
     <!-- AOS ANIMATE -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- BOOTSTRAP -->
@@ -123,7 +124,6 @@
             <section class="container">
             <h4 class="encabezado-novedades">Novedades</h4>
             <div class='container flex-novedades'>
-              
                 <div class='columna1'>
                   <a href='libro10.html'><img src="imagenes/1973.jpg" alt='imagen tapa 1973' class='imagen__rur'></a>
                   <div class='novedades'>
@@ -148,6 +148,82 @@
               <section >
                 <div class='container'>
                   <h4 class="encabezado-novedades">Colecciones</h4>
+<!-- SLIDER ASTRONAUTAS PARA MOVIL -->
+
+                    <div class="slider oculto">
+                      <div class="carousel"
+                      data-flickity='{ "lazyLoad": 6, "initialIndex": 6 }'>
+                      <div class="carousel-cell">
+                        <div class='card-padre'>
+                          <div class='astro1'></div>
+                          <div class="card2">
+                            <p>Colección Astronave</p>
+                          </div>
+                          <div class='card-hover oculto'>
+                            <p>Novelas breves de ciencia ficción, en el estilo de los bolsilibros y los pulps. Autores clásicos y modernos</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-cell">
+                        <div class='card-padre'>
+                          <div class='astro2'></div>
+                          <div class="card2">
+                            <p>Roque y Gervasio</p>
+                          </div>
+                          <div class='card-hover oculto'>
+                            <p>Las aventuras de los conquistadores espaciales Roque & Gervasio en un futuro capitalista y cochambroso</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-cell">
+                        <div class='card-padre'>
+                          <div class='astro3'></div>
+                          <div class="card2">
+                            <p>Manuales de formación para el astronauta</p>
+                          </div>
+                          <div class='card-hover oculto'>
+                            <p>Material de estudio certificado por la Dirección Interprovincial de Astronáutica y Planetas Extrasolares (DIAPE). ¡El cuatro asegurado en cada examen!</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-cell">
+                        <div class='card-padre'>
+                          <div class='astro4'></div>
+                          <div class="card2">
+                            <p>Biblioteca de Historia Espacial</p>
+                          </div>
+                          <div class='card-hover oculto'>
+                            <p>Las principales misiones de colonización, narradas en historietas completas para instruir entreteniendo, o viceversa</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-cell">
+                        <div class='card-padre'>
+                          <div class='astro5'></div>
+                          <div class="card2">
+                            <p>Merchandising</p>
+                          </div>
+                          <div class='card-hover oculto'>
+                            <p>Muñequitos, posters, pedazos de extraterrestres caídos en la Tierra: cosas que no son libros</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-cell">
+                        <div class='card-padre'>
+                          <div class='astro6'></div>
+                          <div class="card2">
+                            <p>Fuera de colección</p>
+                          </div>
+                          <div class='card-hover oculto'>
+                            <p>Libros que nos gustan mucho pero no supimos en qué colección agregar</p>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                </section>   
+               
+            <!-- CARDS ASTRONAUTAS       -->
+            <section class='ocultar'>
                   <div class="flex">
                     <div class='card-padre'>
                       <div class='astro1'></div>
@@ -178,39 +254,40 @@
                     </div>
                     
                   </div>
-                  <div class="flex">
-                    <div class='card-padre'>
-                      <div class='astro4'></div>
-                      <div class="card2">
-                        <p>Biblioteca de Historia Espacial</p>
+                
+                    <div class="flex">
+                      <div class='card-padre'>
+                        <div class='astro4'></div>
+                        <div class="card2">
+                          <p>Biblioteca de Historia Espacial</p>
+                        </div>
+                        <div class='card-hover oculto'>
+                          <p>Las principales misiones de colonización, narradas en historietas completas para instruir entreteniendo, o viceversa</p>
+                        </div>
                       </div>
-                      <div class='card-hover oculto'>
-                        <p>Las principales misiones de colonización, narradas en historietas completas para instruir entreteniendo, o viceversa</p>
+                      <div class='card-padre'>
+                        <div class='astro5'></div>
+                        <div class="card2">
+                          <p>Merchandising</p>
+                        </div>
+                        <div class='card-hover oculto'>
+                          <p>Muñequitos, posters, pedazos de extraterrestres caídos en la Tierra: cosas que no son libros</p>
+                        </div>
                       </div>
-                    </div>
-                    <div class='card-padre'>
-                      <div class='astro5'></div>
-                      <div class="card2">
-                        <p>Merchandising</p>
+                      <div class='card-padre'>
+                        <div class='astro6'></div>
+                        <div class="card2">
+                          <p>Fuera de colección</p>
+                        </div>
+                        <div class='card-hover oculto'>
+                          <p>Libros que nos gustan mucho pero no supimos en qué colección agregar</p>
+                        </div>
                       </div>
-                      <div class='card-hover oculto'>
-                        <p>Muñequitos, posters, pedazos de extraterrestres caídos en la Tierra: cosas que no son libros</p>
-                      </div>
-                    </div>
-                    <div class='card-padre'>
-                      <div class='astro6'></div>
-                      <div class="card2">
-                        <p>Fuera de colección</p>
-                      </div>
-                      <div class='card-hover oculto'>
-                        <p>Libros que nos gustan mucho pero no supimos en qué colección agregar</p>
-                      </div>
-                    </div>
-                    
+                    </div>  
                   </div>
-                  
-                </div>
-              </section>   
+                  </section>
+                 
+            
             
   
   </main>
@@ -255,5 +332,6 @@
          </script>
         
        <script src="main.js"></script>
+       <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 </html>
