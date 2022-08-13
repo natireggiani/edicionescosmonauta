@@ -673,7 +673,8 @@ i {
   .encabezado-novedades {
     margin-left: 0;
     width: 100%;
-    font-size: 1.4em; }
+    font-size: 1.4em;
+    margin-top: 5em; }
   .barra__logo {
     width: 2.25em; }
   .barra__boton--estilo {
