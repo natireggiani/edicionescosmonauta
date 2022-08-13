@@ -82,7 +82,8 @@ body {
   font-size: 3em;
   margin-top: 2em;
   margin-bottom: 1em;
-  border-bottom: 1px solid #bab3d4; }
+  border-bottom: 1px solid #bab3d4;
+  border-radius: 0 0 100% 0; }
 
 .titulo-novedades {
   font-family: 'Roboto', sans-serif;
@@ -670,7 +671,6 @@ i {
   .titulos__secundario {
     font-size: 1em; }
   .encabezado-novedades {
-    text-align: center;
     margin-left: 0;
     width: 100%;
     font-size: 1.4em; }
