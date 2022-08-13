@@ -45,11 +45,6 @@ a {
 .carousel-cell-image.flickity-lazyerror {
   opacity: 1; }
 
-@media screen and (max-width: 700px) {
-  .carousel {
-    width: 350px;
-    margin: 0 auto; } }
-
 body {
   font-family: 'Roboto Mono', monospace; }
 
@@ -694,6 +689,9 @@ i {
 @media only screen and (max-width: 768px) {
   .oculto {
     display: inline; }
+  .carousel {
+    width: 350px;
+    margin: 0 auto; }
   .card-hover {
     margin-bottom: 1.5em;
     margin-top: -2em; }
@@ -808,6 +806,9 @@ i {
     display: inline; }
   .ocultar {
     display: none; }
+  .carousel {
+    width: 350px;
+    margin: 0 auto; }
   .encabezado {
     width: 100%;
     font-size: 1.5em;

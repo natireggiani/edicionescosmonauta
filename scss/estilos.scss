@@ -622,6 +622,11 @@ $fontSize:1em;
         display: inline;
     }
 
+    .carousel {
+        width: 350px;
+        margin:0 auto;
+      }
+
     .card-hover{
         margin-bottom: 1.5em;
         margin-top: -2em;
@@ -815,6 +820,10 @@ $fontSize:1em;
     .ocultar{
         display: none;
     }
+    .carousel {
+        width: 350px;
+        margin:0 auto;
+      }
     .encabezado{   
         width: 100%;
         font-size: 1.5em;
