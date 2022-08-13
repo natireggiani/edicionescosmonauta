@@ -604,11 +604,13 @@ i {
   .imagen__rur {
     width: 15em;
     height: 20em;
-    margin: 15%; }
+    margin: 15%;
+    margin-bottom: 1em; }
   .imagen__rur2 {
     width: 15em;
     height: 15em;
-    margin: 15%; }
+    margin: 15%;
+    margin-bottom: 1em; }
   .titulo__card {
     font-size: 1em; }
   .titulo-novedades {
@@ -617,9 +619,7 @@ i {
     width: 70%;
     margin-left: 15%; }
   .novedades p {
-    font-size: 0.8em; }
-  .columna1 {
-    margin: 0 auto; } }
+    font-size: 0.8em; } }
 
 /*MOVILES HORIZONTAL Y TABLETS */
 @media (min-width: 769px) and (max-width: 1100px) {

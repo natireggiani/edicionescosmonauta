@@ -586,11 +586,13 @@ $fontSize:1em;
         width: 15em;
         height: 20em;
         margin: 15%;
+        margin-bottom: 1em;
     }
     .imagen__rur2{
         width: 15em;
         height: 15em;
         margin:15%;
+        margin-bottom: 1em;
     }
     .titulo__card{
         font-size: $fontSize;
@@ -611,9 +613,7 @@ $fontSize:1em;
         }
     }
 
-    .columna1{
-        margin:0 auto;
-    }
+  
     
     
 }
