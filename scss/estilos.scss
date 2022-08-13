@@ -39,27 +39,43 @@ $fontSize:1em;
 
 .flex-novedades{
     display: flex;
-    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
+
+.columna1{
+    display: flex;
+    flex-direction: column;
+}
+
 .imagen__rur{
     width: 20em;
     height: 30em;
     margin-top: 5em;
-    margin-bottom: 5em;
-    margin-right: 3px;
+    margin-bottom: 2em;
+   
+    // margin-right: 3px;
     // box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.1);
-    box-shadow: 10px 10px 26px -7px rgba(0,0,0,0.75);
+    // box-shadow: 10px 10px 26px -7px rgba(0,0,0,0.75);
 }
-
 
 .imagen__rur2{
-    width: 25em;
-    height: 25em;
+    width: 20em;
+    height: 20em;
     margin-top: 5em;
-    margin-bottom: 5em;
-    margin-right: 3px;
-    box-shadow: 10px 10px 26px -7px rgba(0,0,0,0.75);
+    margin-bottom: 2em;
+    margin-right: 0;
+    // margin-right: 3px;
+    // box-shadow: 10px 10px 26px -7px rgba(0,0,0,0.75);
 }
+
+.novedades{
+    width: 20em;
+}
+
+
+
+
 
 .texto__rur{
     margin-top:10em;
@@ -460,7 +476,10 @@ $fontSize:1em;
         font-size: $fontSize;
     }
 
-    .titulo-rur{
+    .encabezado-novedades{
+        text-align: center;
+        margin-left: 0;
+        width: 100%;
         font-size: 1.4em;
     }
     .barra__logo{
@@ -562,16 +581,38 @@ $fontSize:1em;
         font-size: 0.8em;
         margin-top: 6em;
     }
+
     .imagen__rur{
         width: 15em;
         height: 20em;
+        margin: 15%;
     }
     .imagen__rur2{
         width: 15em;
         height: 15em;
+        margin:15%;
     }
     .titulo__card{
         font-size: $fontSize;
+    }
+
+    .titulo-novedades{
+        font-size: 1em;
+    }
+
+    .novedades{
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .novedades{
+        p{
+            font-size: 0.8em;
+        }
+    }
+
+    .columna1{
+        margin:0 auto;
     }
     
     

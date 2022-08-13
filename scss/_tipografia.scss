@@ -113,9 +113,25 @@ body{
     text-align: center;
 }
 
-.titulo-rur{
-    font-size: 2em;
+.encabezado-novedades{
+    font-size: 4em;
     margin-top: 2em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #bab3d4;
+}
+
+.titulo-novedades{
+    font-family: 'Roboto', sans-serif;
+    font-weight:800;
+}
+
+.subtitulo-novedades{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.texto-novedades{
+    font-weight: 100;
 }
 
 // SECCION NOSOTROS 

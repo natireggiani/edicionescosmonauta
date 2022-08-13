@@ -78,9 +78,22 @@ body {
 .titulos__secundario {
   text-align: center; }
 
-.titulo-rur {
-  font-size: 2em;
-  margin-top: 2em; }
+.encabezado-novedades {
+  font-size: 4em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #bab3d4; }
+
+.titulo-novedades {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800; }
+
+.subtitulo-novedades {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700; }
+
+.texto-novedades {
+  font-weight: 100; }
 
 .columna__texto {
   font-size: 1.3em;
@@ -250,23 +263,28 @@ i {
 /* INDEX */
 .flex-novedades {
   display: flex;
-  align-items: center; }
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+
+.columna1 {
+  display: flex;
+  flex-direction: column; }
 
 .imagen__rur {
   width: 20em;
   height: 30em;
   margin-top: 5em;
-  margin-bottom: 5em;
-  margin-right: 3px;
-  box-shadow: 10px 10px 26px -7px rgba(0, 0, 0, 0.75); }
+  margin-bottom: 2em; }
 
 .imagen__rur2 {
-  width: 25em;
-  height: 25em;
+  width: 20em;
+  height: 20em;
   margin-top: 5em;
-  margin-bottom: 5em;
-  margin-right: 3px;
-  box-shadow: 10px 10px 26px -7px rgba(0, 0, 0, 0.75); }
+  margin-bottom: 2em;
+  margin-right: 0; }
+
+.novedades {
+  width: 20em; }
 
 .texto__rur {
   margin-top: 10em;
@@ -516,7 +534,10 @@ i {
     font-weight: 700; }
   .titulos__secundario {
     font-size: 1em; }
-  .titulo-rur {
+  .encabezado-novedades {
+    text-align: center;
+    margin-left: 0;
+    width: 100%;
     font-size: 1.4em; }
   .barra__logo {
     width: 2.25em; }
@@ -582,12 +603,23 @@ i {
     margin-top: 6em; }
   .imagen__rur {
     width: 15em;
-    height: 20em; }
+    height: 20em;
+    margin: 15%; }
   .imagen__rur2 {
     width: 15em;
-    height: 15em; }
+    height: 15em;
+    margin: 15%; }
   .titulo__card {
-    font-size: 1em; } }
+    font-size: 1em; }
+  .titulo-novedades {
+    font-size: 1em; }
+  .novedades {
+    width: 70%;
+    margin-left: 15%; }
+  .novedades p {
+    font-size: 0.8em; }
+  .columna1 {
+    margin: 0 auto; } }
 
 /*MOVILES HORIZONTAL Y TABLETS */
 @media (min-width: 769px) and (max-width: 1100px) {
