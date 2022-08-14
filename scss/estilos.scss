@@ -745,7 +745,9 @@ $fontSize:1em;
     }
     .columna__texto{
         font-size: $fontSize;
-        margin-right: 0.37em;
+        margin-left: 0;
+        // margin-right: 0.37em;
+        background-position-x: center;
     }
     .columna__texto--linea{
         width: 7em;

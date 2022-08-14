@@ -193,6 +193,7 @@ header {
   background-image: url("../imagenes/logotransparente.png");
   background-repeat: no-repeat;
   background-position-X: left center;
+  margin-left: 3em;
   color: #000000; }
 
 .autores__descripcion--negrita {
@@ -768,7 +769,8 @@ i {
     height: auto; }
   .columna__texto {
     font-size: 1em;
-    margin-right: 0.37em; }
+    margin-left: 0;
+    background-position-x: center; }
   .columna__texto--linea {
     width: 7em;
     margin-right: 0.37em; }
