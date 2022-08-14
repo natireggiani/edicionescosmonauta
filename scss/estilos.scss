@@ -181,6 +181,16 @@ $fontSize:1em;
 }
 
 .coleccion {
+    .coleccion__card5{
+        img{
+            width: $cardWidth;
+            height: 18.75em;
+            border-radius: 5px;
+        }
+    }
+}
+
+.coleccion {
     .coleccion__card2{
                     h4{
                         margin-top:1em;
@@ -250,6 +260,14 @@ $fontSize:1em;
 }
 
 .coleccion:hover{
+    .coleccion__card5:hover{
+        transform: scale(1);
+        filter: blur(0px);
+        opacity: 1;
+        box-shadow: 0px 8px 30px 0px rgba(0,0,0,0.125);
+    } 
+}
+.coleccion:hover{
     .coleccion__card3:hover{
         transform: scale(1);
         filter: blur(0px);
@@ -258,6 +276,12 @@ $fontSize:1em;
     } 
 }
 
+.coleccion:hover{
+    .coleccion__card4{
+        transform: scale(.98);
+        box-shadow: none;
+    }
+}
 .coleccion:hover{
     .coleccion__card4:hover{
         transform: scale(1);
@@ -680,13 +704,24 @@ $fontSize:1em;
     }
 
     .titulos{
+        max-width: 90%;
         font-size: 1.5em;
         font-weight: 700;
+        margin: 0 auto;
+        margin-top: 1em;
     }
     .titulos__secundario{
         font-size: $fontSize;
+        max-width: 90%;
+        margin: 0 auto;
+        margin-top: 1em;
     }
-
+    .coleccion__card1{
+        margin-top: 0.8em;
+    }
+    .coleccion__card4{
+        margin-top: 1em;
+    }
     .encabezado-novedades{
         margin-left: 0;
         width: 100%;
