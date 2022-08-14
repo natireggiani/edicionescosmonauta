@@ -730,7 +730,10 @@ i {
   .ocultar {
     display: none; }
   .encabezado2 {
-    font-size: 1em; }
+    font-size: 1em;
+    height: 180px; }
+  .encabezado__secundario {
+    height: 150px; }
   .encabezado__secundario-ventas {
     font-size: 1em; }
   .coleccion {

@@ -690,6 +690,10 @@ $fontSize:1em;
 
     .encabezado2{
         font-size: $fontSize;
+        height: 180px;
+    }
+    .encabezado__secundario{
+        height: 150px;
     }
 
     .encabezado__secundario-ventas{
