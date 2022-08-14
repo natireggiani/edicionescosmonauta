@@ -241,6 +241,9 @@ header {
 i {
   color: #000000; }
 
+.card2 a:hover {
+  color: #bab3d5; }
+
 .carousel {
   background: white;
   width: 840px;
