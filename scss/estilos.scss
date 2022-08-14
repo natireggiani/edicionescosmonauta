@@ -169,11 +169,22 @@ $fontSize:1em;
     }
 }
 
+
+.coleccion {
+    .coleccion__card4{
+        img{
+            width: $cardWidth;
+            height: 18.75em;
+            border-radius: 5px;
+        }
+    }
+}
+
 .coleccion {
     .coleccion__card2{
                     h4{
                         margin-top:1em;
-                 } 
+            } 
             }
         }
 
@@ -240,6 +251,15 @@ $fontSize:1em;
 
 .coleccion:hover{
     .coleccion__card3:hover{
+        transform: scale(1);
+        filter: blur(0px);
+        opacity: 1;
+        box-shadow: 0px 8px 30px 0px rgba(0,0,0,0.125);
+    } 
+}
+
+.coleccion:hover{
+    .coleccion__card4:hover{
         transform: scale(1);
         filter: blur(0px);
         opacity: 1;
