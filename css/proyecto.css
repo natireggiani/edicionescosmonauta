@@ -13,38 +13,6 @@ a {
   text-decoration: none;
   color: #112A46; }
 
-.carousel {
-  background: white;
-  width: 840px;
-  margin: 0 auto; }
-
-.carousel-cell {
-  width: 270px;
-  height: 380px;
-  margin-right: 10px; }
-
-.carousel-cell-image {
-  display: block;
-  max-height: 270px;
-  margin: 0 auto;
-  max-width: 270px;
-  border-radius: 10px 10px 0px 0px;
-  opacity: 0;
-  -webkit-transition: opacity 0.4s;
-  transition: opacity 0.4s; }
-
-.card-slide {
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
-  border-radius: 0px 0px 10px 10px;
-  height: 72px;
-  width: 270px;
-  text-align: center; }
-
-/* fade in lazy loaded image */
-.carousel-cell-image.flickity-lazyloaded,
-.carousel-cell-image.flickity-lazyerror {
-  opacity: 1; }
-
 body {
   font-family: 'Roboto Mono', monospace; }
 
@@ -168,17 +136,17 @@ header {
 /*ENCABEZADOS*/
 .encabezado2 {
   background-color: #bab3d5;
-  color: #112A46;
+  color: #000000;
   border-bottom: 1px solid red; }
 
 .encabezado__secundario {
   background-color: #bab3d5;
-  color: #112A46;
+  color: #000000;
   border-bottom: 1px solid red; }
 
 .encabezado__secundario-ventas {
   background-color: #bab3d5;
-  color: #112A46;
+  color: #000000;
   border-bottom: 1px solid red; }
 
 .encabezado__libros {
@@ -191,16 +159,16 @@ header {
   border-radius: 4px; }
 
 .barra__boton--estilo {
-  color: #112A46;
+  color: #000000;
   text-decoration: none; }
 
 .barra__boton--estilo:hover {
   background-color: #bab3d5;
-  color: #112A46; }
+  color: #000000; }
 
 .card-footer a {
   text-decoration: none;
-  color: #112A46; }
+  color: #000000; }
 
 .card-footer:hover {
   font-weight: 900;
@@ -211,13 +179,13 @@ header {
 
 /*TITULOS*/
 .titulos {
-  color: #112A46; }
+  color: #000000; }
 
 .titulo__card {
-  color: #112A46; }
+  color: #000000; }
 
 .titulo-rur {
-  color: #112A46;
+  color: #000000;
   border-bottom: 1px solid #bab3d5; }
 
 /* SECCION NOSOTROS */
@@ -225,13 +193,13 @@ header {
   background-image: url("../imagenes/logotransparente.png");
   background-repeat: no-repeat;
   background-position-X: left center;
-  color: #112A46; }
+  color: #000000; }
 
 .autores__descripcion--negrita {
-  color: #112A46; }
+  color: #000000; }
 
 .lista2 {
-  color: #112A46;
+  color: #000000;
   list-style-image: url("../imagenes/logochico.jpg"); }
 
 .autores__descripcion a:hover {
@@ -239,39 +207,71 @@ header {
   border-radius: 4px; }
 
 .lista2 a:hover {
-  color: #112A46;
+  color: #000000;
   border-bottom: 1px solid #bab3d5; }
 
 .lista2 a:hover {
-  color: #112A46;
+  color: #000000;
   border-bottom: 1px solid #bab3d5; }
 
 .dist:hover {
-  color: #112A46;
+  color: #000000;
   text-decoration: underline; }
 
 .libro__boton {
   text-decoration: none;
-  color: #112A46; }
+  color: #000000; }
 
 .libro__boton:hover {
   background-color: #bab3d5;
-  color: #112A46; }
+  color: #000000; }
 
 /*FOOTER*/
 .footer {
-  color: #112A46;
+  color: #000000;
   background-color: #bab3d5;
   border-top: 1px solid red; }
 
 .footer a {
-  color: #112A46; }
+  color: #000000; }
 
 .footer a:hover {
   text-decoration: underline; }
 
 i {
-  color: #112A46; }
+  color: #000000; }
+
+.carousel {
+  background: white;
+  width: 840px;
+  margin: 0 auto; }
+
+.carousel-cell {
+  width: 270px;
+  height: 380px;
+  margin-right: 10px; }
+
+.carousel-cell-image {
+  display: block;
+  max-height: 270px;
+  margin: 0 auto;
+  max-width: 270px;
+  border-radius: 10px 10px 0px 0px;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s;
+  transition: opacity 0.4s; }
+
+.card-slide {
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 10px 10px;
+  height: 72px;
+  width: 270px;
+  text-align: center; }
+
+/* fade in lazy loaded image */
+.carousel-cell-image.flickity-lazyloaded,
+.carousel-cell-image.flickity-lazyerror {
+  opacity: 1; }
 
 /*ENCABEZADOS*/
 .encabezado2 {

@@ -1,6 +1,7 @@
 $colorPrincipal:rgb(186,179,213);
 $bordeEncabezado:1px solid red;
-$colorFuente:#112A46;
+// $colorFuente:#112A46;
+$colorFuente:#000000;
 $colorFondo:rgb(250, 247, 253);
 
 header{
@@ -118,9 +119,9 @@ header{
 
 .autores__descripcion{
         a:hover{
-           background-color: $colorPrincipal;
-           border-radius: 4px;
-       }    
+        background-color: $colorPrincipal;
+        border-radius: 4px;
+    }    
 }   
 
 // SECCION VENTAS
