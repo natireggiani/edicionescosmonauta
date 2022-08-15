@@ -51,6 +51,7 @@ header{
 .barra__boton--estilo{
     color: $colorFuente;
     text-decoration: none;
+    border: 1px solid $colorFuente;
 }
 .barra__boton--estilo:hover{
     background-color: $colorPrincipal;

@@ -334,14 +334,13 @@ $fontSize:1em;
 
 .autores{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 2em;
-    margin-bottom: 2em;
- }
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2em 5em 2em 5em;
+}
 
  .autores__descripcion{
-     width: 50em;
+     width: 15em;
      margin-top: 3em;
  }    
  
@@ -353,15 +352,15 @@ $fontSize:1em;
             }
     }
 
-.autores__descripcion--imgleft{
-    float:left;
-    border: 10px solid #ffffff;
-}
+// .autores__descripcion--imgleft{
+//     float:left;
+//     border: 10px solid #ffffff;
+// }
 
-.autores__descripcion--imgright{
-    float: right;
-    border: 1px solid #ffffff;
-}
+// .autores__descripcion--imgright{
+//     float: right;
+//     border: 1px solid #ffffff;
+// }
 
 .autores__descripcion{
     a{
@@ -414,6 +413,7 @@ $fontSize:1em;
 .libro__boton{
     font-size: 0.7em;
     font-weight: 900;
+    border: 1px solid #000000;
 }
 
 
@@ -809,7 +809,7 @@ $fontSize:1em;
     }
 
     .libro__boton{
-        font-size: $fontSize/2;
+        font-size: 0.7em;
         text-decoration: none;
         color:rgb(70, 66, 66);
         margin-top: 10px;

@@ -107,7 +107,8 @@ body {
 /*SECCION AUTORES*/
 .autores__descripcion--negrita {
   font-weight: 700;
-  font-size: 1.5em; }
+  font-size: 1.2em;
+  margin-top: 0.5em; }
 
 .autores__descripcion--autor {
   font-size: 1em; }
@@ -160,7 +161,8 @@ header {
 
 .barra__boton--estilo {
   color: #000000;
-  text-decoration: none; }
+  text-decoration: none;
+  border: 1px solid #000000; }
 
 .barra__boton--estilo:hover {
   background-color: #bab3d5;
@@ -476,27 +478,18 @@ i {
 /*SECCION AUTORES*/
 .autores {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 2em;
-  margin-bottom: 2em; }
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 2em 5em 2em 5em; }
 
 .autores__descripcion {
-  width: 50em;
+  width: 15em;
   margin-top: 3em; }
 
 .autores__descripcion img {
   width: 13em;
   height: 18em;
   border-radius: 20px; }
-
-.autores__descripcion--imgleft {
-  float: left;
-  border: 10px solid #ffffff; }
-
-.autores__descripcion--imgright {
-  float: right;
-  border: 1px solid #ffffff; }
 
 .autores__descripcion a {
   border: 1px solid #112A46; }
@@ -532,7 +525,8 @@ i {
 
 .libro__boton {
   font-size: 0.7em;
-  font-weight: 900; }
+  font-weight: 900;
+  border: 1px solid #000000; }
 
 .encabezado__libros--titulo {
   margin-top: 1.25em;
@@ -809,7 +803,7 @@ i {
   .libro__descripcion {
     font-size: 0.5em; }
   .libro__boton {
-    font-size: 0.5em;
+    font-size: 0.7em;
     text-decoration: none;
     color: #464242;
     margin-top: 10px; }
