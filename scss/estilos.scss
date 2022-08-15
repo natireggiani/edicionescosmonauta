@@ -376,16 +376,22 @@ $fontSize:1em;
 
 .lista2{   
     margin-top: 1em;
- }
+}
 
- .centrado{
+.centrado{
     justify-content: space-around;
     display:flex;
     flex-direction:row;
     flex-wrap: wrap;
     margin-top: 7em;
     margin-bottom: 6em;   
- }
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.centrado__ventas{
+    margin-bottom: 7em;
+}
 
 
 
@@ -755,15 +761,17 @@ $fontSize:1em;
     }
 
     .centrado{
-         display:flex;
-         justify-content: space-evenly;
-         align-items: center;
-         flex-direction:column;
-         flex-wrap: nowrap;
+        display:flex;
+        align-items: flex-start;
+        flex-direction:column;
+        margin-left: 12%;
+        max-width: 80%;
+        // flex-wrap: nowrap;
     }
 
     .centrado__ventas{
         margin-top: 1em;
+        margin-bottom: 1em;
     }
     .autores__descripcion{
         width: 15em;
