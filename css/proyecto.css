@@ -566,6 +566,20 @@ i {
   justify-content: space-around;
   width: 10em; }
 
+.subfooter {
+  height: 2em;
+  text-align: end;
+  background-color: #776c80; }
+
+.subfooter p {
+  font-size: 1em;
+  color: #bab3d4;
+  margin-right: 1.5em;
+  padding-top: 5px; }
+
+.nr:hover {
+  color: #ffffff; }
+
 .flex {
   display: flex;
   margin-top: 3em;
