@@ -39,8 +39,9 @@ $fontSize:1em;
 /* INDEX */
 
 .flex-novedades{
+    width: 95%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -50,24 +51,19 @@ $fontSize:1em;
 }
 
 .imagen__rur{
-    width: 20em;
-    height: 30em;
+    width: 15em;
+    height: 22.5em;
     margin-top: 5em;
     margin-bottom: 2em;
-   
-    // margin-right: 3px;
-    // box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.1);
-    // box-shadow: 10px 10px 26px -7px rgba(0,0,0,0.75);
 }
 
 .imagen__rur2{
-    width: 20em;
-    height: 20em;
+    width: 22.5em;
+    height: 22.5em;
     margin-top: 5em;
     margin-bottom: 2em;
     margin-right: 0;
-    // margin-right: 3px;
-    // box-shadow: 10px 10px 26px -7px rgba(0,0,0,0.75);
+
 }
 
 .novedades{
@@ -124,8 +120,10 @@ $fontSize:1em;
 /*TARJETAS CATALOGO*/
 
 .coleccion{
+    width: 98%;
     display: flex;
     justify-content:space-evenly;
+    flex-wrap: wrap;
     margin: auto;
     margin-top: 80px;
     margin-bottom: 80px;    
@@ -136,6 +134,7 @@ $fontSize:1em;
         .coleccion__card1 { 
             width: 12.5em;
             height: 23em;
+            margin-bottom: 0.8em;
             img{
                 width: 12.5em;
                 height: 18em;
@@ -149,6 +148,7 @@ $fontSize:1em;
     .coleccion__card2{
         width: $cardWidth;
         height: 26em;
+        margin-bottom: 0.8em;
     }
 }
 

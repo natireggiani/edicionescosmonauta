@@ -301,8 +301,9 @@ i {
 
 /* INDEX */
 .flex-novedades {
+  width: 95%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap; }
 
 .columna1 {
@@ -310,14 +311,14 @@ i {
   flex-direction: column; }
 
 .imagen__rur {
-  width: 20em;
-  height: 30em;
+  width: 15em;
+  height: 22.5em;
   margin-top: 5em;
   margin-bottom: 2em; }
 
 .imagen__rur2 {
-  width: 20em;
-  height: 20em;
+  width: 22.5em;
+  height: 22.5em;
   margin-top: 5em;
   margin-bottom: 2em;
   margin-right: 0; }
@@ -354,15 +355,18 @@ i {
 
 /*TARJETAS CATALOGO*/
 .coleccion {
+  width: 98%;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   margin: auto;
   margin-top: 80px;
   margin-bottom: 80px; }
 
 .coleccion .coleccion__card1 {
   width: 12.5em;
-  height: 23em; }
+  height: 23em;
+  margin-bottom: 0.8em; }
   .coleccion .coleccion__card1 img {
     width: 12.5em;
     height: 18em;
@@ -370,7 +374,8 @@ i {
 
 .coleccion .coleccion__card2 {
   width: 18.75em;
-  height: 26em; }
+  height: 26em;
+  margin-bottom: 0.8em; }
 
 .coleccion .coleccion__card3 {
   width: 18.75em;
