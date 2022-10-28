@@ -301,10 +301,10 @@ i {
 
 /* INDEX */
 .flex-novedades {
-  width: 95%;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin-left: 1em; }
 
 .columna1 {
   display: flex;
@@ -314,14 +314,14 @@ i {
   width: 15em;
   height: 22.5em;
   margin-top: 5em;
-  margin-bottom: 2em; }
+  margin-bottom: 2em;
+  margin-left: 5%; }
 
 .imagen__rur2 {
   width: 22.5em;
   height: 22.5em;
   margin-top: 5em;
-  margin-bottom: 2em;
-  margin-right: 0; }
+  margin-bottom: 2em; }
 
 .novedades {
   width: 20em; }
@@ -861,6 +861,8 @@ i {
   .novedades {
     width: 70%;
     margin-left: 15%; }
+  .flex-novedades {
+    margin-left: 0; }
   .novedades p {
     font-size: 0.8em; } }
 
