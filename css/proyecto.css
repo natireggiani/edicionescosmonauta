@@ -87,14 +87,17 @@ body {
 
 .titulo-novedades {
   font-family: 'Roboto', sans-serif;
-  font-weight: 800; }
+  font-weight: 800;
+  font-size: 1em; }
 
 .subtitulo-novedades {
   font-family: 'Roboto', sans-serif;
-  font-weight: 700; }
+  font-weight: 700;
+  font-size: 0.8em; }
 
 .texto-novedades {
-  font-weight: 100; }
+  font-weight: 100;
+  font-size: 0.8em; }
 
 .columna__texto {
   font-size: 1.3em;
@@ -311,20 +314,20 @@ i {
   flex-direction: column; }
 
 .imagen__rur {
-  width: 15em;
-  height: 22.5em;
+  width: 7.5em;
+  height: 11.25em;
   margin-top: 5em;
   margin-bottom: 2em;
   margin-left: 5%; }
 
 .imagen__rur2 {
-  width: 22.5em;
-  height: 22.5em;
+  width: 11.25em;
+  height: 11.25em;
   margin-top: 5em;
   margin-bottom: 2em; }
 
 .novedades {
-  width: 20em; }
+  width: 15em; }
 
 .texto__rur {
   margin-top: 10em;
