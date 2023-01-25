@@ -81,7 +81,9 @@ $fontSize:1em;
     
 }
 
-
+.banner{
+    height: 290px;
+}
 
 /*BARRA DE NAVEGACION*/
 
@@ -684,7 +686,9 @@ $fontSize:1em;
         margin:0 auto;
         margin-top: 4em;
     }
-
+    .banner{
+        height: 150px;
+    }
     .card-hover{
         margin-bottom: 1.5em;
         margin-top: -2em;
@@ -900,9 +904,13 @@ $fontSize:1em;
         display: none;
     }
     .carousel {
-        width: 350px;
+        width: 550px;
         margin:0 auto;
-      }
+    }
+
+    .banner{
+        height: 250px;
+    }
     .encabezado{   
         width: 100%;
         font-size: 1.5em;
