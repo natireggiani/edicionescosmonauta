@@ -339,7 +339,10 @@ i {
   color: #112A46; }
 
 .banner {
-  height: 290px; }
+  margin: auto;
+  margin-top: 2em;
+  width: 55em;
+  height: 20em; }
 
 /*BARRA DE NAVEGACION*/
 .barra__logo {
@@ -754,7 +757,8 @@ i {
     margin: 0 auto;
     margin-top: 4em; }
   .banner {
-    height: 150px; }
+    width: 75vw;
+    height: 8em; }
   .card-hover {
     margin-bottom: 1.5em;
     margin-top: -2em; }
@@ -893,7 +897,8 @@ i {
     width: 550px;
     margin: 0 auto; }
   .banner {
-    height: 250px; }
+    width: 75vw;
+    height: 15em; }
   .encabezado {
     width: 100%;
     font-size: 1.5em;
