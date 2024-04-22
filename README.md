@@ -1,2 +1,0 @@
-Mi nombre es Natalia Reggiani, soy Lic en Economía. Trabajo hace más de 10 años en el área de RRHH y Administración de Personal y estoy dandole un giro a mi carrera ingresando al mundo del Desarrollo Web y la programación. 
-Esta página es sobre una editorial nueva (Libros del Cosmonauta) dedicada a editar historietas y litertura de ciencia ficción clásica.
