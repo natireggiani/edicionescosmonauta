@@ -1,0 +1,979 @@
+
+@import 'estructura';
+@import 'tipografia';
+@import 'colores';
+@import 'slider';
+
+$cardWidth:18.75em;
+$cardHeight: 28em;
+$logoWidth:4.5em;
+$fontSize:1em;
+
+/*ENCABEZADOS*/
+
+
+.encabezado2{
+    text-align: center;
+    padding-top: 50px;
+    height: 200px;
+}
+
+.encabezado__secundario{
+    text-align: center;
+    padding-top: 50px;
+    height: 190px;
+}
+
+
+.encabezado__secundario-ventas{
+    text-align: center;
+    padding-top: 35px;
+    height: 190px;
+}
+
+.encabezado__libros{
+    height: 20px;
+    text-align: left;  
+} 
+
+
+/* INDEX */
+
+.flex-novedades{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 1em;
+}
+
+.columna1{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagen__rur{
+    width: 7.5em;
+    height: 11.25em;
+    margin-top: 5em;
+    margin-bottom: 2em;
+    margin-left: 5%;
+}
+
+.imagen__rur2{
+    width: 11.25em;
+    height: 11.25em;
+    margin-top: 5em;
+    margin-bottom: 2em;
+}
+
+.novedades{
+    width: 15em;
+}
+
+.texto__rur{
+    margin-top:10em;
+    margin-bottom: 2em;
+    padding-right: 30px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2em;
+    color: #112A46;
+    
+}
+
+.banner{
+    margin: auto;
+    margin-top: 2em;
+    width: 55em;
+    height: 20em ;
+}
+
+
+/*BARRA DE NAVEGACION*/
+
+.barra__logo{
+    width: $logoWidth;
+    padding-top: 1em;
+}
+
+
+.barra__boton{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    margin-right: 1em;
+    margin-bottom: 1em;    
+}
+
+.icons-navbar{
+    margin-right: 1em;
+}
+
+.icons-navbar{
+    i{
+        color:#bab3d4;
+    }
+}
+
+
+
+/*TARJETAS CATALOGO*/
+
+.coleccion{
+    width: 95%;
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;    
+}
+
+
+.coleccion {
+        .coleccion__card1 { 
+            width: 12.5em;
+            height: 23em;
+            margin-bottom: 0.8em;
+            img{
+                width: 12.5em;
+                height: 18em;
+                border-radius: 5px;
+            }
+        }
+    }   
+
+
+.coleccion {
+    .coleccion__card2{
+        width: $cardWidth;
+        height: 26em;
+        margin-bottom: 0.8em;
+    }
+}
+
+.coleccion {
+    .coleccion__card3{
+        width: $cardWidth;
+        height: ($cardHeight/3)*2;
+    }
+}
+
+.coleccion {
+    .coleccion__card2{
+        img{
+            width: $cardWidth;
+            height: 18.75em;
+            border-radius: 5px;
+        }
+    }
+}
+
+
+.coleccion {
+    .coleccion__card4{
+        img{
+            width: $cardWidth;
+            height: 18.75em;
+            border-radius: 5px;
+        }
+    }
+}
+
+.coleccion {
+    .coleccion__card5{
+        img{
+            width: $cardWidth;
+            height: 18.75em;
+            border-radius: 5px;
+        }
+    }
+}
+
+.coleccion {
+    .coleccion__card2{
+                    h4{
+                        margin-top:1em;
+            } 
+            }
+        }
+
+
+.coleccion {
+    .coleccion__card3 {
+                    img{
+                        width: 18.75em;
+                        height: 12.5em;
+                        border-radius: 5px;
+                }
+            }
+        }
+
+.coleccion {
+    .coleccion__card3 {
+                    h4{
+                        margin-top:1em;
+                    }
+                } 
+        }
+
+.coleccion {
+    .coleccion__card3 {
+                        p{  
+                            margin-top: 0.25em;
+                        }
+                }
+            }       
+
+
+.coleccion:hover{
+    .coleccion__card1{
+        transform: scale(.98);
+        box-shadow: none;
+    }
+}
+
+.coleccion:hover{
+    .coleccion__card1:hover{
+        transform: scale(1);
+        filter: blur(0px);
+        opacity: 1;
+        box-shadow: 0px 8px 30px 0px rgba(0,0,0,0.125);
+    } 
+}
+
+
+.coleccion:hover{
+    .coleccion__card2{
+        transform: scale(.98);
+        box-shadow: none;
+    }
+}
+
+.coleccion:hover{
+    .coleccion__card2:hover{
+        transform: scale(1);
+        filter: blur(0px);
+        opacity: 1;
+        box-shadow: 0px 8px 30px 0px rgba(0,0,0,0.125);
+    } 
+}
+
+.coleccion:hover{
+    .coleccion__card5:hover{
+        transform: scale(1);
+        filter: blur(0px);
+        opacity: 1;
+        box-shadow: 0px 8px 30px 0px rgba(0,0,0,0.125);
+    } 
+}
+.coleccion:hover{
+    .coleccion__card3:hover{
+        transform: scale(1);
+        filter: blur(0px);
+        opacity: 1;
+        box-shadow: 0px 8px 30px 0px rgba(0,0,0,0.125);
+    } 
+}
+
+.coleccion:hover{
+    .coleccion__card4{
+        transform: scale(.98);
+        box-shadow: none;
+    }
+}
+.coleccion:hover{
+    .coleccion__card4:hover{
+        transform: scale(1);
+        filter: blur(0px);
+        opacity: 1;
+        box-shadow: 0px 8px 30px 0px rgba(0,0,0,0.125);
+    } 
+}
+
+#tres{
+    margin-top: 3em;
+}
+
+/*TITULOS*/
+.titulos{
+    margin-top: 1.25em;
+}
+
+
+
+
+/* SECCION NOSOTROS */
+
+.columna{
+    display: flex;
+    justify-content: center;
+}
+
+.columna__logo{
+    width: 50em;
+}
+
+.columna__texto {
+    padding-left:6em;
+    padding-right: 6em;
+    padding-top:4.37em ;
+}
+
+.columna__texto--linea{
+    margin-top: 2em;
+    width: 10em;
+    border-bottom: 1px solid black;
+}
+.columna__texto--logo{
+    margin-top: 2em;
+}
+
+/*SECCION AUTORES*/
+
+.autores{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2em 5em 2em 5em;
+}
+
+.autores__descripcion{
+    width: 15em;
+    margin-top: 3em;
+}    
+
+.autores__descripcion {
+            img{
+                width: 13em;
+                height: 18em;
+                border-radius: 20px;
+            }
+    }
+
+.autores__descripcion{
+    a{
+        border: 1px solid #112A46;
+    }
+}
+
+
+/*SECCION VENTAS*/
+
+.lista2{   
+    margin-top: 1em;
+}
+
+.centrado{
+    justify-content: space-around;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin-top: 7em;
+    margin-bottom: 6em;   
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.centrado__ventas{
+    margin-bottom: 7em;
+}
+
+
+
+/*SECCION LIBROS*/
+
+
+.libros{
+    display: grid;
+    grid-template-columns: 50% 30%;
+    justify-items: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 600px;
+}
+
+.libro__tapa{
+    margin-bottom: 2em; 
+}
+
+.libro__boton{
+    font-size: 0.7em;
+    font-weight: 900;
+    border: 1px solid #000000;
+}
+
+
+.encabezado__libros--titulo{
+    margin-top: 1.25em;
+    margin-left: 1.25em;
+    margin-bottom: 0.19em;
+}
+
+
+.libro__imagen{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.libro__imagen-criaturas{
+    max-width: 20em;
+    height: 25em;
+}
+
+
+.libro__imagen-planetario{
+    max-width: 25em;
+    height: 25em;
+}
+
+.libro__imagen2{
+    max-width: 100%;
+    height: auto;
+}
+
+.animate__animated.animate__backInLeft{
+    --animate-duration: 3s;
+}
+
+/*FOOTER*/
+
+.footer{
+    display: flex;
+    width: 100%;
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+    justify-content: space-around;
+}
+
+.footer {
+                p{
+                    margin-left: 3em;
+                }
+            }
+
+.footer__redes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 10em;
+}
+
+.subfooter{
+    height: 2em;
+    text-align: end;
+    background-color: #776c80;
+}
+.subfooter{
+    p{
+        font-size: 1em;
+        color: #bab3d4;
+        margin-right: 1.5em;
+        padding-top: 5px;
+    }
+}
+
+.nr:hover{
+    color: #ffffff;
+}
+
+
+// TARJETAS ASTRONAUTAS
+
+.margen{
+    margin-top: 8em;
+}
+
+.flex{
+    display: flex;
+    margin-top: 2em;
+    flex-wrap: wrap ;
+}
+
+.astro1{
+    width: 300px;
+    height: 240px;
+    background-image: url('../imagenes/coleccionastronave.jpg');
+    
+    
+}
+.astro2{
+    width: 300px;
+    height: 240px;
+    background-image: url('../imagenes/roqueygervasio.jpg');
+    object-fit:contain;
+    
+}
+.astro3{
+    width: 300px;
+    height: 240px;
+    background-image: url('../imagenes/manuales.jpg');
+    object-fit:contain;
+}
+
+.astro4{
+    width: 300px;
+    height: 240px;
+    background-image: url('../imagenes/bibliotecadehistoria.jpg');
+    object-fit:contain;
+    
+}
+.astro5{
+    width: 300px;
+    height: 240px;
+    background-image: url('../imagenes/merchandising.jpg');
+    object-fit:contain;
+    
+}
+.astro6{
+    width: 300px;
+    height: 240px;
+    background-image: url('../imagenes/fueradecoleccion.jpg');
+    object-fit:contain;
+    
+}
+
+.astro7{
+    width: 300px;
+    height: 240px;
+    background-image: url('../imagenes/logoPlanetario.jpg');
+    object-fit:contain;
+    
+}
+
+
+.card-hover{
+    width: 250px;
+    height: 200px;
+    font-size: 0.8em;
+    background-color: white;
+    margin:0 auto;
+    margin-top:-3em;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0px 10px 13px -8px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.card-hover{
+    p{
+        margin: 2em;
+        padding-top: 3em;
+        text-align: center;
+    }
+}
+
+.card2{
+    width: 250px;
+    height: 75px;
+    text-align: center;
+    margin:0 auto;
+    border-radius: 10px;
+    margin-top: -30px;
+    z-index: 2000;
+    background-color: white;
+    box-shadow: 0px 10px 13px -8px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.card2{
+    p{
+        padding-top: 8%;
+        font-family: 'Roboto', sans-serif;
+        font-weight:800;
+        font-size: 1em;
+    }
+}
+
+.hide{
+    visibility: hidden;
+}
+
+
+.slide-in-top {
+    -webkit-animation: slide-in-top 0.5s cubic-bezier(0.5, 0.5, 0.450, 0.940) both;
+    animation: slide-in-top o.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes slide-in-top {
+    0% {
+      -webkit-transform: translateY(-80px);
+              transform: translateY(-80px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-top {
+    0% {
+      -webkit-transform: translateY(-80px);
+              transform: translateY(-80px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .slide-out-top {
+    -webkit-animation: slide-out-top 0.3s 0.3s reverse both;
+            animation: slide-out-top 0.3s 0.3s reverse both;
+}
+
+ @-webkit-keyframes slide-out-top {
+    0% {
+      -webkit-transform: translateY(-80px);
+              transform: translateY(-80px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-out-top {
+    0% {
+      -webkit-transform: translateY(-80px);
+              transform: translateY(-80px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+
+.oculto{
+    display: none;
+}
+
+.card-padre{
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    
+}
+
+
+
+
+
+
+
+/*DISEÃ‘O RESPONSIVE*/
+
+/*MOVILES VERTICAL*/
+@media only screen and (max-width: 540px){
+    .ocultar{
+        display: none;
+    }
+    .card{
+        width: 15em;
+        margin: auto;
+    }
+    .oculto{
+        display: inline;
+    }
+    
+}
+
+
+@media only screen and (max-width: 768px){
+    .oculto{
+        display: inline;
+    }
+
+    .carousel {
+        width: 350px;
+        margin:0 auto;
+        margin-top: 4em;
+    }
+    .banner{
+        width: 75vw;
+        height: 8em;
+    }
+    .card-hover{
+        margin-bottom: 1.5em;
+        margin-top: -2em;
+    }
+
+    .card-hover{
+        p{
+            font-size: 0.8em;
+            padding-top: 1em;
+        }
+    }
+
+    .ocultar{
+        display: none;
+    }
+
+    .encabezado2{
+        font-size: $fontSize;
+        height: 180px;
+    }
+    .encabezado__secundario{
+        height: 150px;
+    }
+
+    .encabezado__secundario-ventas{
+        font-size: $fontSize;
+    }
+    
+    .coleccion{
+        display: flex;
+        flex-wrap: wrap;      
+        justify-self: center; 
+    
+    }
+
+    .titulos{
+        max-width: 90%;
+        font-size: 1.5em;
+        font-weight: 700;
+        margin: 0 auto;
+        margin-top: 1em;
+    }
+    .titulos__secundario{
+        font-size: $fontSize;
+        max-width: 90%;
+        margin: 0 auto;
+        margin-top: 1em;
+    }
+    .coleccion__card1{
+        margin-top: 0.8em;
+    }
+    .coleccion__card4{
+        margin-top: 1em;
+    }
+    .coleccion__card5{
+        margin-top: 1em;
+    }
+    .encabezado-novedades{
+        margin-left: 0;
+        width: 100%;
+        font-size: 1.4em;
+        margin-top: 5em;
+    }
+    .barra__logo{
+        width: $logoWidth/2;
+    }
+
+    .barra__boton--estilo{
+        font-size: $fontSize/2;
+    }
+
+    .columna__logo{
+        height: auto;
+    }
+    .columna__texto{
+        font-size: $fontSize;
+        margin-left: 0;
+        // margin-right: 0.37em;
+        background-position-x: center;
+    }
+    .columna__texto--linea{
+        width: 7em;
+        margin-right: 0.37em;
+    }
+
+    .centrado{
+        display:flex;
+        align-items: flex-start;
+        flex-direction:column;
+        margin-left: 12%;
+        max-width: 80%;
+        // flex-wrap: nowrap;
+    }
+
+    .centrado__ventas{
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .autores__descripcion{
+        width: 15em;
+    }
+
+    .autores__descripcion--autor{
+    font-size: $fontSize/2;
+    font-weight: 900;
+    }
+    .autores__descripcion--negrita{
+        font-size: $fontSize;
+    }
+
+    .autores__descripcion {
+        img{
+        width: 7em;
+        height: 9em;
+        border-radius: 20px;
+    }
+}
+
+    .libros{
+        display: grid;
+        grid-template-rows: max-content;
+        justify-content: space-around;
+        height: 440px; 
+    }
+
+    .encabezado__libros--titulo{
+        font-size: $fontSize;
+    }
+    
+    .libro__descripcion{
+        font-size: $fontSize/2;
+    }
+
+    .libro__boton{
+        font-size: 0.7em;
+        text-decoration: none;
+        color:rgb(70, 66, 66);
+        margin-top: 10px;
+    }
+
+    .libro__imagen{
+        max-width: 100%;
+        height: 250px;
+    }
+
+    .libro__imagen2{
+        width: 150px;
+        height: 150px;
+    }
+
+
+    .libro__imagen-planetario{
+        width: 150px;
+        height: 150px;
+    }
+
+    .libro__imagen3{
+        width: 150px;
+        height: 100px;
+    }
+    .libro__imagen-criaturas{
+        max-width: 100%;
+        height: 250px;
+    }
+
+    .footer{
+        font-size: $fontSize/2;
+    }
+    .texto__rur{
+        font-size: 0.8em;
+        margin-top: 6em;
+    }
+
+    .imagen__rur{
+        width: 15em;
+        height: 20em;
+        margin: 15%;
+        margin-bottom: 1em;
+    }
+    .imagen__rur2{
+        width: 15em;
+        height: 15em;
+        margin:15%;
+        margin-bottom: 1em;
+    }
+    .titulo__card{
+        font-size: $fontSize;
+    }
+
+    .titulo-novedades{
+        font-size: 1em;
+    }
+
+    .novedades{
+        width: 70%;
+        margin-left: 15%;
+    }
+    .flex-novedades{
+        margin-left: 0;
+    }
+    .novedades{
+        p{
+            font-size: 0.8em;
+        }
+    }
+
+  
+    
+    
+}
+  
+
+ 
+
+/*MOVILES HORIZONTAL Y TABLETS */
+
+ @media (min-width: 769px) and (max-width: 1100px) { 
+    .oculto{
+        display: inline;
+    }
+    .ocultar{
+        display: none;
+    }
+    .carousel {
+        width: 550px;
+        margin:0 auto;
+    }
+
+    .banner{
+        width: 75vw;
+        height: 15em;
+    }
+   
+    .encabezado{   
+        width: 100%;
+        font-size: 1.5em;
+        padding-top: 300px;
+    }
+    
+    .coleccion{
+        display: flex;
+        flex-wrap: wrap;            
+    }
+    .columna__logo{
+        height: auto;
+    }
+
+    .libro__imagen{
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    .libro__descripcion{
+        font-size: 0.5em;
+    }
+    
+    .texto__rur{
+        font-size: 1em;
+        margin-top: 5em;
+    }
+
+    .imagen__rur{
+        width: 15em;
+        height: 20em;
+    }
+
+    .imagen__rur2{
+        width: 15em;
+        height: 15em;
+    }
+
+    .card__footer-text{
+    font-size: 0.5em;
+    }
+
+   
+} 

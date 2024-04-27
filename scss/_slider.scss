@@ -1,0 +1,45 @@
+.card2{
+  a:hover{
+    color: $colorPrincipal;
+  }
+}
+.carousel {
+    background: white;
+    width: 840px;
+    margin:0 auto;
+  }
+  
+  .carousel-cell {
+    width: 270px;
+    height: 380px;
+    margin-right: 10px;
+  }
+  
+  .carousel-cell-image {
+    display: block;
+    max-height: 270px;
+    margin: 0 auto;
+    max-width: 270px;
+    border-radius: 10px 10px 0px 0px;
+    opacity: 0;
+    -webkit-transition: opacity 0.4s;
+            transition: opacity 0.4s;
+  }
+
+  .card-slide{
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 10px 10px;
+    height: 72px;
+    width: 270px;
+    text-align: center;
+  }
+
+  
+
+  
+  /* fade in lazy loaded image */
+  .carousel-cell-image.flickity-lazyloaded,
+  .carousel-cell-image.flickity-lazyerror {
+    opacity: 1;
+  }
+ 

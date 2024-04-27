@@ -1,0 +1,186 @@
+$colorPrincipal:rgb(186,179,213);
+$bordeEncabezado:1px solid red;
+// $colorFuente:#112A46;
+$colorFuente:#000000;
+$colorFondo:rgb(250, 247, 253);
+
+header{
+    background-color: #ffffff;
+}
+
+
+/*ENCABEZADOS*/
+
+.encabezado2{
+    background-color: $colorPrincipal;
+    color: $colorFuente;
+    border-bottom: $bordeEncabezado;
+}
+
+
+.encabezado__secundario{
+    background-color: $colorPrincipal;
+    color: $colorFuente;
+    border-bottom: $bordeEncabezado;
+}
+
+
+.encabezado__secundario-ventas{
+    background-color: $colorPrincipal;
+    color: $colorFuente;
+    border-bottom: $bordeEncabezado;
+}
+
+
+.encabezado__libros{
+    background-color: $colorPrincipal;
+    border-bottom: $bordeEncabezado;
+}
+
+/*BARRA DE NAVEGACION*/
+
+.barra {
+    li {
+        a:hover{
+            background-color: $colorPrincipal;
+            border-radius: 4px;
+        } 
+    }  
+}   
+
+.barra__boton--estilo{
+    color: $colorFuente;
+    text-decoration: none;
+    border: 1px solid $colorFuente;
+}
+.barra__boton--estilo:hover{
+    background-color: $colorPrincipal;
+    color:$colorFuente;
+}
+
+// INDEX
+
+.card-footer{
+    a{
+        text-decoration: none;
+        color: $colorFuente;
+    }
+}
+
+.card-footer:hover{
+        font-weight: 900;
+       font-family: monospace;
+      
+}
+
+.fondo{
+    background-color:$colorFondo;
+   
+}
+
+/*TITULOS*/
+
+.titulos{
+    color:$colorFuente;
+}
+
+.titulo__card{
+    color:$colorFuente;
+}
+
+.titulo-rur{
+    color:$colorFuente;
+    border-bottom: 1px solid $colorPrincipal;
+}
+
+
+/* SECCION NOSOTROS */
+
+
+.columna__texto {
+    background-image: url('../imagenes/logotransparente.png');
+    background-repeat: no-repeat;
+    background-position-X: left center;
+    margin-left: 3em;
+    color:$colorFuente
+}
+
+.autores__descripcion--negrita{
+    color:$colorFuente
+}
+
+
+.lista2{   
+    color: $colorFuente;
+    list-style-image: url('../imagenes/logochico.jpg');
+    
+ }
+
+// SECCION AUTORES
+
+
+.autores__descripcion{
+        a:hover{
+        background-color: $colorPrincipal;
+        border-radius: 4px;
+    }    
+}   
+
+// SECCION VENTAS
+
+.lista2{
+    a:hover{
+            color: $colorFuente;
+            border-bottom:1px solid $colorPrincipal;
+    }
+}
+.lista2{
+    a:hover{
+            color: $colorFuente;
+            border-bottom:1px solid $colorPrincipal;
+    }
+}
+
+.dist:hover{
+        color: $colorFuente;
+        text-decoration: underline;
+    }
+
+
+
+// SECCION LIBROS
+
+.libro__boton{
+    text-decoration: none;
+    color:$colorFuente;
+}
+
+.libro__boton:hover{
+    background-color:$colorPrincipal;
+    color:$colorFuente;
+}
+
+/*FOOTER*/
+
+.footer{
+    color: $colorFuente;
+    background-color:$colorPrincipal;
+    border-top: $bordeEncabezado;
+}
+
+.footer{
+    a{
+        color: $colorFuente;
+    }
+}
+
+
+.footer{
+    a:hover{
+        text-decoration: underline;
+    }
+}
+
+i{
+    color:$colorFuente;
+}
