@@ -357,6 +357,41 @@ $fontSize:1em;
     }
 }
 
+.borde{
+    border: 1px solid #112A46;
+}
+
+.borde:hover{
+    background-color: $colorPrincipal;
+    color:$colorFuente;
+}
+
+.autores__descripcion1{
+    width: 15em;
+    margin-top: 3em;
+}    
+
+.autores__descripcion1{
+    a{
+    text-decoration: underline;
+    }
+}  
+
+
+.autores__descripcion1{
+    a:hover{
+    color: $colorPrincipal;
+    }
+}  
+
+.autores__descripcion1 {
+            img{
+                width: 13em;
+                height: 18em;
+                border-radius: 20px;
+            }
+    }
+
 
 /*SECCION VENTAS*/
 
