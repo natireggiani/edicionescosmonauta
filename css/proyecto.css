@@ -519,11 +519,11 @@ i {
   width: 15em;
   margin-top: 3em; }
 
-.autores__descripcion1 a {
-  text-decoration: underline; }
-
 .autores__descripcion1 a:hover {
-  color: #bab3d5; }
+  color: black; }
+
+.fran {
+  text-decoration: underline; }
 
 .autores__descripcion1 img {
   width: 13em;
@@ -846,12 +846,18 @@ i {
     margin-bottom: 1em; }
   .autores__descripcion {
     width: 15em; }
+  .autores__descripcion1 {
+    width: 15em; }
   .autores__descripcion--autor {
     font-size: 0.5em;
     font-weight: 900; }
   .autores__descripcion--negrita {
     font-size: 1em; }
   .autores__descripcion img {
+    width: 7em;
+    height: 9em;
+    border-radius: 20px; }
+  .autores__descripcion1 img {
     width: 7em;
     height: 9em;
     border-radius: 20px; }

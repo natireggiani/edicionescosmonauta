@@ -371,18 +371,18 @@ $fontSize:1em;
     margin-top: 3em;
 }    
 
-.autores__descripcion1{
-    a{
-    text-decoration: underline;
-    }
-}  
 
 
 .autores__descripcion1{
     a:hover{
-    color: $colorPrincipal;
+    color: black;
     }
 }  
+
+.fran{
+    text-decoration: underline;
+}
+
 
 .autores__descripcion1 {
             img{
@@ -835,6 +835,9 @@ $fontSize:1em;
     .autores__descripcion{
         width: 15em;
     }
+    .autores__descripcion1{
+        width: 15em;
+    }
 
     .autores__descripcion--autor{
     font-size: $fontSize/2;
@@ -850,6 +853,15 @@ $fontSize:1em;
         height: 9em;
         border-radius: 20px;
     }
+}
+
+
+.autores__descripcion1 {
+    img{
+    width: 7em;
+    height: 9em;
+    border-radius: 20px;
+}
 }
 
     .libros{
